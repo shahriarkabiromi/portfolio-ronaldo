@@ -25,6 +25,7 @@ h1{
 }
 section{
     height: 500px;
+    padding-bottom: 155px;
 }
 .link-button{
     text-decoration: none;
@@ -33,4 +34,37 @@ section{
     padding: 10px 20px;
     border-radius: 5px;
     background-image: linear-gradient(45deg,lightsalmon,tomato);
+}
+.mid-part{
+    background-image: url("images/bg1.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.orrange-highlight{
+    color: orange;
+}
+.bottom-part{
+    background-image: url(images/bg2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.shadow-box{
+    box-shadow: 10px 15px 40px gray;
+    height: 60%;
+    border-radius: 5px;
+    background-color: white;
+}
+#country{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,tomato,orange);
+    border-image-slice:1;
+}
+#club{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice:1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
